@@ -4,7 +4,12 @@ body {
     margin: 0%;
 }
 
-
+h1 {
+  position: absolute;
+  right: 100;
+  top: 15;
+  color: gray;
+}
 
 /* BEGINNING OF NAV BAR */
 
