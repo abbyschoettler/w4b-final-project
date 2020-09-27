@@ -4,9 +4,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Websites for Beginners - Practice</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="myscripts.js" type="text/javascript"></script>
     <script src="https://kit.fontawesome.com/476569c51a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <img class="hero-image" src="img/hero.jpg" alt="Pink neon sign, live colorfully">
+
+    <!-- start background image -->
+
+    <img class="hero-image" src="img/hero.jpg" alt="close-up of pumpkin near wall with smoke">
+
+    <!-- end background image -->
+
+    <!-- start nav bar --> 
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content"></div>
+          <a href="index.html">Home</a>
+          <a href="about.html" target="blank">About</a>
+          <a href="contact.html" target="blank">Contact</a>
+          
+        </div>
+      </div>
+
+      <span style="cursor: pointer;" onclick="openNav()">
+        <img src="img/ghost.png" class="ghost" alt="ghost">
+    </span>
+      
+      <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+
+      <!-- end nav bar -->
+
+
 </body>
 </html>
