@@ -116,7 +116,27 @@ body, html {
 /* end tagline */
 
 
+/* start video text box */
 
+.video-text {
+  text-align: center;
+  margin-top: 95px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* end video text box */
+
+
+/* start video */
+
+.video {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* end video */
 
 
 /* start footer */
