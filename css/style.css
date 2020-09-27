@@ -26,6 +26,8 @@ body, html {
   margin-right: 10px;
   margin-top: 10px;
   float: right;
+  opacity: 0.7;
+  z-index: 1;
 }
 
 .overlay {
@@ -53,10 +55,11 @@ body, html {
   padding: 8px;
   text-decoration: none;
   text-align: center;
-  font-size: 36px;
+  font-size: 50px;
   color: #FEC893;
   display: block;
   transition: 0.3s;
+  font-family: 'Creepster', cursive;
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -79,3 +82,73 @@ body, html {
 }
 
 /* end nav bar */
+
+/* start header */
+
+.header {
+  width: 100%;
+  text-align: center;
+  font-family: 'Creepster', cursive;
+  font-size: 30px;
+  opacity: 0.7; 
+  z-index: -1;
+  position: relative;
+  text-shadow: 3px 3px 8px gray;
+  height: 50px;
+}
+
+/* end header */
+
+/* start tagline */
+
+.box {
+  text-align: center;
+  background-color: rgb(255,255,255, 0.7);
+  font-family: 'Creepster', cursive;
+  height: 50px;
+  font-size: 30px;
+}
+
+.tagline {
+  padding-top: 7px;
+}
+
+/* end tagline */
+
+
+
+
+
+/* start footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    opacity: 0.3;
+    height: 50px;
+}
+
+.fa-instagram {
+  opacity: 0.5;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+}
+
+.fa-twitter {
+  opacity: 0.5;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  right: 55%;
+  left: 45%;
+}
+
+/* end footer */
