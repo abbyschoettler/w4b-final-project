@@ -102,7 +102,7 @@ body, html {
   
   /* start FAQ section */
   
-  .faq {
+  .question {
     text-align: center;
     background-color: rgb(255,255,255, 0.7);
     margin-top: 60px;
