@@ -129,7 +129,7 @@ body, html {
       width: 100%;
       background-color: gray;
       opacity: 0.7;
-      height: 50px;
+      height: 70px;
   }
   
   .fa-instagram {
@@ -140,6 +140,7 @@ body, html {
     position: absolute;
     right: 50%;
     left: 50%;
+    margin-top: 10px;
   }
   
   .fa-twitter {
@@ -150,6 +151,15 @@ body, html {
     position: absolute;
     right: 55%;
     left: 45%;
+    margin-top: 10px;
+  }
+
+  .footer-address {
+      text-align: right;
+      color: white;
+      opacity: 0.5;
+      margin-top: 5px;
+      margin-right: 10px;
   }
   
   /* end footer */
