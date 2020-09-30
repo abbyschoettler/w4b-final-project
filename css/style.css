@@ -120,7 +120,7 @@ body, html {
 
 .video-text {
   text-align: center;
-  margin-top: 95px;
+  margin-top: 40px;
   font-size: 20px;
   font-weight: bold;
   text-decoration: underline;
@@ -139,6 +139,26 @@ body, html {
 /* end video */
 
 
+/* start FAQ section */
+
+.faq {
+  text-align: center;
+  background-color: rgb(255,255,255, 0.7);
+  margin-top: 60px;
+}
+
+.title {
+  font-family: 'Creepster', cursive;
+  font-size: 30px;
+}
+
+.content {
+  font-size: 20px;
+}
+
+/* end FAQ section */
+
+
 /* start footer */
 
 .footer {
@@ -147,7 +167,7 @@ body, html {
     bottom: 0;
     width: 100%;
     background-color: gray;
-    opacity: 0.3;
+    opacity: 0.7;
     height: 50px;
 }
 
