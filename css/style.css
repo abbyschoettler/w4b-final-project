@@ -139,26 +139,6 @@ body, html {
 /* end video */
 
 
-/* start FAQ section */
-
-.faq {
-  text-align: center;
-  background-color: rgb(255,255,255, 0.7);
-  margin-top: 60px;
-}
-
-.title {
-  font-family: 'Creepster', cursive;
-  font-size: 30px;
-}
-
-.content {
-  font-size: 20px;
-}
-
-/* end FAQ section */
-
-
 /* start footer */
 
 .footer {
